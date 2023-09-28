@@ -42,6 +42,7 @@ function Input() {
         <input type="password" value={pass} required onChange={onPassChange} />
       </div>
       <button onClick={Submit}>Sign In</button>
+      <p>Writes data to the database</p>
     </div>
   );
 }
